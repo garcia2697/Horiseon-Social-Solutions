@@ -8,6 +8,8 @@
     background-color: #d9dcd6;
 }
 
+
+/* Overall Header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,41 +26,55 @@
     color: #d9dcd6;
 }
 
-.header nav {
-    padding-top: 15px;
-    margin-right: 10%;
-    float: right;
-    display:inline-block;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
+/* Makes changes to button list on the header section */
 
-.header nav ul {
-    list-style-type: none;
-}
+    .header nav {
+        padding-top: 15px;
+        margin-right: 10%;
+        float: right;
+        display:inline-block;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    }
 
-.header ul li {
-    float: right;
+    .header nav ul {
+        list-style-type: none;
+    }
+
+    .header ul li {
+        float: right;
+        display: inline-block;
+        margin-left: 50px;
+    }
+    
+   
+    /* End of header changes */
+
+/* Background image */
+.hero {
+height: 1000px;
+width: 100%;
+margin-bottom: 25px;
+background-image: url("../images/digital-marketing-meeting.jpg");
+background-size: cover;
+background-position: center;
+}
+/* End of background Image */
+
+/* Section for services provided */
+.content {
+    width: 75%;
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
+ a {
+        color: #ffffff;
+        text-decoration: none;
+    }
 
 p {
     font-size: 16px;
-}
-
-.hero {
-    height: 1000px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 .float-left {
@@ -71,12 +87,9 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+/* Services ends here */
 
+/* Benefits start here */
 
 .benefits {
     margin-right: 20px;
@@ -190,7 +203,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Benefits end here */
 .footer {
     padding: 30px;
     clear: both;
